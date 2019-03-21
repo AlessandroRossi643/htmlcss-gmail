@@ -1,0 +1,68 @@
+body{
+  background-image: url("sfondo.jpg");
+}
+body > div {
+  width: 800px;
+  margin: auto;
+}
+
+#container{
+  width:550px;
+  margin: auto;
+}
+
+header img{
+  width: 140px;
+}
+header span{
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+main > input[type="text"]{
+  width: 200px;
+}
+main > button{
+  border-radius: 5px;
+}
+#unread-email{
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+#unread-email > span{
+  border-radius: 50%;
+  background-color: orange;
+}
+
+#container-email{
+  border: 1px solid black;
+  margin: 10px 0px;
+}
+
+.unread{
+  background-color: grey;
+  border-bottom: 1px solid black;
+  line-height: 25px;
+}
+.read{
+  background-color: white;
+  border-bottom: 1px solid black;
+  line-height: 25px;
+}
+
+footer{
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
+footer > #author{
+  font-style: italic;
+  font-size: 30px;
+}
